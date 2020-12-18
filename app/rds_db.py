@@ -3,23 +3,10 @@ import pyrebase
 import sys
 import string
 
-conn = pymysql.connect(
-    host = 'savemygpa.coi7sdcjbaeb.us-east-1.rds.amazonaws.com',
-    port = 3306,
-    user = 'admin',
-    password = 'ForTeam107',
-    db = 'savemygpa',
-)
+# Deleted account information
+conn = "pymysqlConfig"
 
-firebaseConfig = {
-    "apiKey": "AIzaSyAcxxRO8Sqf7m8F9NkUI6-9MPdWrZkYgGs",
-    "authDomain": "savemygpa-7912d.firebaseapp.com",
-    "databaseURL": "https://savemygpa-7912d.firebaseio.com",
-    "projectId": "savemygpa-7912d",
-    "storageBucket": "savemygpa-7912d.appspot.com",
-    "messagingSenderId": "781502539376",
-    "appId": "1:781502539376:web:7618817f841ef51f9b36b5"
-}
+firebaseConfig = "firebaseConfig
 
 def build_term_frequencies():
     print('Building term frequencies...')

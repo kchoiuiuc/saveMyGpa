@@ -13,15 +13,8 @@ import numpy as np
 
 app.secret_key = "very secret"
 
-config = {
-    "apiKey": "AIzaSyAcxxRO8Sqf7m8F9NkUI6-9MPdWrZkYgGs",
-    "authDomain": "savemygpa-7912d.firebaseapp.com",
-    "databaseURL": "https://savemygpa-7912d.firebaseio.com",
-    "projectId": "savemygpa-7912d",
-    "storageBucket": "savemygpa-7912d.appspot.com",
-    "messagingSenderId": "781502539376",
-    "appId": "1:781502539376:web:7618817f841ef51f9b36b5"
-}
+# Deleted account information
+config = "firebase config"
 
 firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
